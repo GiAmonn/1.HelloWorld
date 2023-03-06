@@ -1,11 +1,13 @@
-#Creates variable called name and asks the user to give it a value
-name = input("Hey, what's your name?")
-match name.index(0):
-    case "gio":
+#Exercise 3: Greets you based on your name.
+name = input("Hey, what's your name? ")
+match name[0]:
+    case "g":
         print("Hello, " + name.title() + "!")
-    case "eka":
+    case "m":
         print("Hello, " + name.title() + "! You look amazing today!")
-    case "nika":
+    case "a":
         print("Hello, " + name.title() + "! Do you even lift bro?")
-    case "elene":
+    case "t":
         print("Hello, " + name.title() + "! Wanna go for lunch?")
+    case _:
+        print("No special greeting for you " + name.title())

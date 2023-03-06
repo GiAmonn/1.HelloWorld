@@ -1,3 +1,5 @@
+#Exercise 1
+
 #Creates variable called name and asks the user to give it a value
 name = input("Hey, what's your name?")
 

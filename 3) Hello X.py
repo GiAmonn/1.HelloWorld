@@ -8,7 +8,7 @@ match name[0]:
         print("Hello, " + name.title() + "! You look amazing today!")
     case "a":
         print("Hello, " + name.title() + "! Do you even lift bro?")
-    case "a":
+    case "e":
         print("Hello, " + name.title() + "! Wanna go for lunch?")
     case _:
         print("No special greeting for you " + name.title())

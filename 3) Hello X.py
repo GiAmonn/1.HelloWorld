@@ -1,9 +1,11 @@
 #Exercise 3: Greets you based on your name.
+#ამ დავალებაში მისალმება ხდება სახელის პირველი ასოს საფუძველზე
+
 print("Please choose names starting on: G, M, E or A ")
 name = input("Hey, what's your name? ")
 match name[0]:
     case "g":
-        print("Hello, " + name.title() + "!")
+        print("Hello, " + name.title() + "! Hows life?")
     case "m":
         print("Hello, " + name.title() + "! You look amazing today!")
     case "a":

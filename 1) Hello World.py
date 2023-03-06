@@ -4,7 +4,7 @@
 name = input("Hey, what's your name?")
 
 #Creates a sting called "greeting" and merges some of its' text with a sting called "name"
-greeting = ("Hello, " + name.title() + "!")
+greeting = ("Hello, " + name.title() + ", nice to meet you!")
 
 #prints the final value of a string called "greeting"
 print(greeting)

@@ -1,3 +1,3 @@
-m = int(input("Type in KGs: "))
+m = int(input("Type in KGs (M): "))
 c = 300000000
-print(m*(c*c))
+print("E: " + str(m*(c*c)))

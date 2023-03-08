@@ -1,7 +1,7 @@
-m = input("Greeting ")
-if  m.title()[0:5] == "Hello" :
+greeting = input("Greeting ")
+if  greeting.title()[0:5] == "Hello" :
     print("0$")
-elif m.title()[0] == "H":
+elif greeting.title()[0] == "H":
     print("20$")
 else:
     print("100$")

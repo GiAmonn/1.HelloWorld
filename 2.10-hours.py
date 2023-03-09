@@ -14,7 +14,6 @@ def convert(time):
         hours, minutes = time.split(":")
     elif time[len(time)-5:] == " p.m.":
         time = time[:-5]
-        print(time)
         hours, minutes = time.split(":")
         hours = float(hours) + 12   
     else:

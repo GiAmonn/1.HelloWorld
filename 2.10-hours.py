@@ -1,3 +1,5 @@
+#Informs user when it's time to eat based on the time value entered
+
 def main():
     textinput = convert(input("What time is it?: "))
     if 8 >= textinput >= 7 :

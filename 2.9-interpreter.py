@@ -1,3 +1,5 @@
+#Mini calculator
+
 exps = input("Expressions: ").split()
 x = float(exps[0])
 y = (exps[1])

@@ -1,3 +1,5 @@
+#Informs user about the extension of their file
+
 fileformat = input("Input fila name: ").lower()
 filetype = fileformat[fileformat.find("."):]
 match filetype:

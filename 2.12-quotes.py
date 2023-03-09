@@ -1,3 +1,6 @@
+#Takes the name and quote of a celebrity and informs user if they're right or wrong
+#if not guessed correctly prints the actual quote from the ecelebrity
+
 quote = input("What is the quote? ")
 name = input("Who said it? ").title()
 

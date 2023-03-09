@@ -1,3 +1,5 @@
+#Counts number of characters in the text 
+
 def main():
     textinput = input("Tell me something: ")
     if textinput != "":

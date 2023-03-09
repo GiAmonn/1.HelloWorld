@@ -8,8 +8,17 @@ def main():
         print ("dinner time")
 
 def convert(time):
-    hours, minutes = time.split(":")    
-    minc = float(hours) + float(minutes)/60
-    return minc
+    
+    if time[len(time)-5:] == " a.m.":
+        time = time.replace(" a.m.","")
+        hours, minutes = time.split(":")
+    elif time[len(time)-5:] == " p.m.":
+        time = time.replace(" p.m.","")
+        hours, minutes = time.split(":")
+        hours = float(hours) + 12   
+    else:
+        hours, minutes = time.split(":")
+    minconv = float(hours) + float(minutes)/60
+    return minconv
 
 main()

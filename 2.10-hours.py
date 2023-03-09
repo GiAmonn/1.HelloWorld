@@ -10,10 +10,10 @@ def main():
 def convert(time):
     
     if time[len(time)-5:] == " a.m.":
-        time = time.replace(" a.m.","")
+        time = time[:-5]
         hours, minutes = time.split(":")
     elif time[len(time)-5:] == " p.m.":
-        time = time.replace(" p.m.","")
+        time = time[:-5]
         hours, minutes = time.split(":")
         hours = float(hours) + 12   
     else:
